@@ -1,0 +1,136 @@
+body{
+    background-color: lightblue;
+}
+nav{
+    background-color: white;
+    width:100%;
+    height:60px;
+   display: flex;
+   justify-content: center;
+   padding-right: 20px;
+   position: fixed;
+   top:0;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    margin-right: 10px;
+    width: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav a:hover{
+    background-color: lightpink;
+    transition:4s;
+}
+nav img{
+    margin-right:auto;
+}
+.container{
+    width:780px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    height:auto;
+    text-align: center;
+
+
+}
+.row{
+    display:flex;
+    gap: 15px;
+}
+.product-image{
+    width: 400px;
+
+}
+.product-image img{
+    
+    object-fit: fill;
+    width: 400px;
+
+}
+.product-detail{
+    width:400px;
+}
+.caption{
+
+    width:300px;
+    background-color: white;
+    color:black;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: cursive;
+    border-radius: 10px;
+    border: 4px solid lightblue;
+
+}
+.related-product{
+    width:180px;
+    padding: 10px;
+    border:  2px solid black;
+    background-color:white;
+}
+.related-product img{
+    width:100%;
+    object-fit: cover;
+
+}
+.related-product-name{
+    width:100%;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    padding-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    color: black;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.img-container:hover .caption {
+    visibility: visible;
+}
+.img-container .caption {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(25, 25, 25, 0.5);
+    /* background-color: black; */
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+}
+.team {
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.team .member {
+    width: 400px;
+    padding: 10px;
+}
+.team .member img {
+    border-radius: 50%;
+    width: 50%; 
+}
+.team .member .name {
+    font-weight: bold;
+}
